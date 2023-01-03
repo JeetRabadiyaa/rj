@@ -38,7 +38,7 @@ class Food
         cin >> qty;
         d = qty * 150.00;
         cout << "\t\t\t\t\t\ttotal:" << d;
-        total = total + d
+        total = total + d;
         count++;
     }
     void butterchapati()
@@ -77,7 +77,7 @@ class Food
         total = total + h;
         count++;
     }
-    void total()
+    void totall()
     {
         cout << "\n\t\t\t\t\t\t Qty of all total:" << total;
     }
@@ -85,7 +85,7 @@ class Food
     {
         cout << "\n\t\t\t\t\t\t Qty of all total:" << total;
         cout << "\n\t\t\t\t\t\ttotal food order:" << Food::count;
-        cout << "\n\t\t\t\t\t\t~~~~~~~~~~~~~~~~~~~Exit~~~~~~~~~~~~~~~~~~~~~~~";
+        cout << "\n\t\t\t\t\t\t~~~~~~~~~~~~~~~~~~~thanks~for~visit3~~~~~~~~~~~~~~~~~~~~~~~";
     }
 };
 int Food::count=0;
@@ -138,7 +138,7 @@ int main()
             jeet.pepsi();
             break;
         case 9:
-            jeet.total();
+            jeet.totall();
             break;
         case 0:
             break;
