@@ -18,6 +18,6 @@ class Box
 int main()
 {
     Box a;
-    a.setdata(3,2,4);
+    a.setdata(4,6,3);
     a.getdata();
 }
